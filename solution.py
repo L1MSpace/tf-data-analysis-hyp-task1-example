@@ -24,8 +24,8 @@ def solution(x_success: int,
 
     chi2_crit = 5.412
     if chi2 < chi2_crit:
-      res = True
-    else:
       res = False
+    else:
+      res = True
 
     return res
